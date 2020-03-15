@@ -4,6 +4,7 @@ import json
 import time
 import os
 # 创建flask对象
+#dest
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'gsolvit'
 
