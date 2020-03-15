@@ -14,7 +14,7 @@ def index():
 
 
 @app.route('/manager', methods=['GET', 'POST'])
-def manager():#test
+def manager():
     sql = "select * from STUDENT"
     result = query.query(sql)
     return render_template('manager.html', result=result)
