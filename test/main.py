@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, flash,  jsonify, redirect, ur
 from utils import query, map_student_course, recommed_module
 import json
 import time
-import os
+import os#test
 # 创建flask对象
 #dest
 app = Flask(__name__)#test
